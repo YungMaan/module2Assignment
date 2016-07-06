@@ -10,19 +10,14 @@ text-align: center;
 }
 
 h1 {
-	position: relative;
-	left: auto;
-	text-align: center;
-  font-family:Tahoma, Geneva, sans-serif;
-  color:#F88389;
+    position: relative;
+    left: auto;
+    text-align: center;
+    font-family:Tahoma, Geneva, sans-serif;
+   color:#F88389;
     /*#F7646C;
   /*background-color:#98ADAD;*/
   padding:6px;
-  overflow: auto;
-  centered-table {
-   margin-left: auto;
-   margin-right: auto;
-}
 	}
 p {
 	position: relative;
@@ -31,8 +26,8 @@ p {
 	width: 100;
 	font-family:Tahoma, Geneva, sans-serif;
 	color: #D8E0E0;
-  margin: 10px;
-  width:95%; 
+        margin: 10px;
+        width:95%; 
 }
 row{
 	width:100%;
