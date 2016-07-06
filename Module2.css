@@ -1,7 +1,4 @@
 /*Basic Styles*/
-* {
-  box-sizing: border-box;
-}
 body {
 margin:0;
 padding:0;
@@ -10,27 +7,35 @@ text-align: center;
 }
 
 h1 {
-    position: relative;
-    left: auto;
-    text-align: center;
-    font-family:Tahoma, Geneva, sans-serif;
-   color:#F88389;
+	position: relative;
+	left: auto;
+	text-align: center;
+  font-family:Tahoma, Geneva, sans-serif;
+  color:#F88389;
     /*#F7646C;
   /*background-color:#98ADAD;*/
   padding:6px;
-	}
+}
+h2 {
+  position: relative;
+	text-align: right;
+	background-color:none;
+	width: 100;
+	font-family:Tahoma, Geneva, sans-serif;
+	color:#F7737A;
+  margin: 10px;
+  width:95%; 
+}
 p {
 	position: relative;
 	text-align: center;
 	background-color: #98ADAD;
-	width: 100;
 	font-family:Tahoma, Geneva, sans-serif;
 	color: #D8E0E0;
-        margin: 10px;
-        width:95%; 
-}
-row{
-	width:100%;
+  margin-left: 50%;
+  margin-right: 50%;
+  width:95%; 
+
 }
 /*Large Devices*/
 
@@ -164,4 +169,3 @@ row{
     width: 100%;
   }
 }
-
