@@ -3,17 +3,23 @@ body {
 margin:0;
 padding:0;
 background-color:#FCD0D2;
-box-sizing:border-box;
 text-align: center;
 }
+
 h1 {
-    position: relative;
-    left: auto;
-    text-align: center;
-    font-family: Helvetica;
-    color:#F7646C;
-    background-color:#98ADAD;
-    padding:6px;
+	position: relative;
+	left: auto;
+	text-align: center;
+  font-family: Helvetica;
+  color:#F88389;
+    /*#F7646C;
+  /*background-color:#98ADAD;*/
+  padding:6px;
+  overflow: auto;
+  .centered-table {
+   margin-left: auto;
+   margin-right: auto;
+}
 	}
 p {
 	position: static;
@@ -23,6 +29,7 @@ p {
 	font-family: Helvetica;
 	color: #D8E0E0;
   margin: 10px;
+ 
 }
 row{
 	width:100%;
