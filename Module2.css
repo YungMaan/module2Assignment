@@ -4,8 +4,9 @@ background-color:white;
 box-sizing:border-box;
 }
 h1 {
-	position: relative;
+	position: statcic;
 	left: 50px
+	text-align: center;
 	margin-bottom: 15px;
 	}
 p {
