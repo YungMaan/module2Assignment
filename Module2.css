@@ -1,4 +1,7 @@
 /*Basic Styles*/
+* {
+  box-sizing: border-box;
+}
 body {
 margin:0;
 padding:0;
@@ -10,26 +13,26 @@ h1 {
 	position: relative;
 	left: auto;
 	text-align: center;
-  font-family: Helvetica;
+  font-family:Tahoma, Geneva, sans-serif;
   color:#F88389;
     /*#F7646C;
   /*background-color:#98ADAD;*/
   padding:6px;
   overflow: auto;
-  .centered-table {
+  centered-table {
    margin-left: auto;
    margin-right: auto;
 }
 	}
 p {
-	position: static;
+	position: relative;
 	text-align: center;
 	background-color: #98ADAD;
 	width: 100;
-	font-family: Helvetica;
+	font-family:Tahoma, Geneva, sans-serif;
 	color: #D8E0E0;
   margin: 10px;
- 
+  width:95%; 
 }
 row{
 	width:100%;
@@ -166,3 +169,4 @@ row{
     width: 100%;
   }
 }
+
