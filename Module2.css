@@ -7,13 +7,13 @@ box-sizing:border-box;
 text-align: center;
 }
 h1 {
-	position: relative;
-	left: auto;
-	text-align: center;
-  font-family: Helvetica;
-  color:#F7646C;
-  background-color:#98ADAD;
-  padding:6px;
+    position: relative;
+    left: auto;
+    text-align: center;
+    font-family: Helvetica;
+    color:#F7646C;
+    background-color:#98ADAD;
+    padding:6px;
 	}
 p {
 	position: static;
