@@ -1,9 +1,15 @@
-/*Basic Styles*/
+<style type="text/css">
+*{
+	box-sizing:border-box;
+}
 body {
-box-sizing:border-box;
 margin:0;
 padding:0;
 background-color:#FCD0D2;
+background-image: url("kitten.jpg");
+background-repeat: repeat;
+background-attachment: fixed;
+opacity: 0.9;
 text-align: center;
 }
 
@@ -15,158 +21,65 @@ h1 {
   color:#F88389;
     /*#F7646C;
   /*background-color:#98ADAD;*/
-  padding:6px;
 }
 h2 {
   position: relative;
 	text-align: right;
-	background-color:none;
-	width: 100;
+	background-color:#66FFFF;
 	font-family:Tahoma, Geneva, sans-serif;
+  font-size:175%;
 	color:#F7737A;
-  margin: 10px;
-  width:95%; 
+  padding:
 }
-p {
+div2 {
+border: 1px grey solid black;
+			background:;
+			color: green;
+			margin: 1px;
+			overflow: auto;
+}
+div3{
+			border: 1px grey solid black;
+			background:none;
+			color: green;
+			margin: 1px;
+			overflow: auto;  
+}
+section{
 	position: relative;
 	text-align: center;
 	background-color: #98ADAD;
 	font-family:Tahoma, Geneva, sans-serif;
 	color: #D8E0E0;
-  margin-left: 50%;
-  margin-right: 50%;
-  width:95%; 
+  font size: 120%;
+  padding:50px, 100px, 50px, 100px;
 
 }
 /*Large Devices*/
+@media(min-width: 992px){
+			div2,div3{
+				float: left;
+				width: 32.5%;
+			}
+		}
+/*Tablet Devices*/
 
-@media (min-width: 992px) {
-.col-lg-1, .col-lg2, .col-lg-3, col-lg-4.col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10,.col-lg-11,.col-lg-12 {
-    float: left;
-    border: 1px #FCD0D2;
-	}
-    .col-lg-1 {
-    width: 8.33%;
-  }
-  .col-lg-2 {
-    width: 16.66%;
-  }
-  .col-lg-3 {
-    width: 25%;
-  }
-  .col-lg-4 {
-    width: 33.33%;
-  }
-  .col-lg-5 {
-    width: 41.66%;
-  }
-  .col-lg-6 {
-    width: 50%;
-  }
-  .col-lg-7 {
-    width: 58.33%;
-  }
-  .col-lg-8 {
-    width: 66.66%;
-  }
-  .col-lg-9 {
-    width: 74.99%;
-  }
-  .col-lg-10 {
-    width: 83.33%;
-  }
-  .col-lg-11 {
-    width: 91.66%;
-  }
-  .col-lg-12 {
-    width: 100%;
-  }
-}
-/* Tablet devices only*/
+			@media(min-width: 768px) and (max-width: 991px){
+			div2{
+				float: left;
+				width: 49%;
+			}
+			div3{
+				float: left;
+				width: 98.5%;
+			}
+		}
+/*Phones*/
 
-@media (min-width: 768px) and (max-width: 991px) {
-  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
-    float: left;
-    border: 1px solid #FCD0D2;
-  }
-  .col-md-1 {
-    width: 8.33%;
-  }
-  .col-md-2 {
-    width: 16.66%;
-  }
-  .col-md-3 {
-    width: 25%;
-  }
-  .col-md-4 {
-    width: 33.33%;
-  }
-  .col-md-5 {
-    width: 41.66%;
-  }
-  .col-md-6 {
-    width: 50%;
-  }
-  .col-md-7 {
-    width: 58.33%;
-  }
-  .col-md-8 {
-    width: 66.66%;
-  }
-  .col-md-9 {
-    width: 74.99%;
-  }
-  .col-md-10 {
-    width: 83.33%;
-  }
-  .col-md-11 {
-    width: 91.66%;
-  }
-  .col-md-12 {
-    width: 100%;
-  }
-}
-/* Mobile Devices*/
-
-@media (max-width: 767px){
-.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
-    float: left;
-    border: 1px solid #FCD0D2;
-}	
-.col-sm-1 {
-    width: 8.33%;
-  }
-  .col-sm-2 {
-    width: 16.66%;
-  }
-  .col-sm-3 {
-    width: 25%;
-  }
-  .col-sm-4 {
-    width: 33.33%;
-  }
-  .col-sm-5 {
-    width: 41.66%;
-  }
-  .col-sm-6 {
-    width: 50%;
-  }
-  .col-sm-7 {
-    width: 58.33%;
-  }
-  .col-sm-8 {
-    width: 66.66%;
-  }
-  .col-sm-9 {
-    width: 74.99%;
-  }
-  .col-sm-10 {
-    width: 83.33%;
-  }
-  .col-sm-11 {
-    width: 91.66%;
-  }
-  .col-sm-12 {
-    width: 100%;
-  }
-}
+		@media(max-width: 767px){
+			div2,div3{
+				float: left;
+				width: 100%;
+			}
+		}
+</style>
