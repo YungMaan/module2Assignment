@@ -19,8 +19,8 @@ h1 {
 	text-align: center;
   font-family:Tahoma, Geneva, sans-serif;
   color:#F88389;
-    /*#F7646C;
-  /*background-color:#98ADAD;*/
+  background:#66FFFF;
+
 }
 h2 {
   position: relative;
@@ -29,19 +29,20 @@ h2 {
 	font-family:Tahoma, Geneva, sans-serif;
   font-size:175%;
 	color:#F7737A;
-  padding:
+  padding:5px 10px 5px 10px;
+  font weight:bold;
 }
 div2 {
-border: 1px grey solid black;
+border: 1px dotted;
 			background:;
-			color: green;
+			color:#66FFFF;
 			margin: 1px;
 			overflow: auto;
 }
 div3{
-			border: 1px grey solid black;
-			background:none;
-			color: green;
+			border: 1px dotted;
+			background: ;
+			color:#66FFFF;
 			margin: 1px;
 			overflow: auto;  
 }
@@ -52,7 +53,9 @@ section{
 	font-family:Tahoma, Geneva, sans-serif;
 	color: #D8E0E0;
   font size: 120%;
-  padding:50px, 100px, 50px, 100px;
+  padding:5px, 10px, 5px, 10px;
+  height:150px;
+  font weight:800;
 
 }
 /*Large Devices*/
